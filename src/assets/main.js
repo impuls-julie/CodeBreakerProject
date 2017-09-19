@@ -14,7 +14,7 @@ function guess() {
       return false;
     }
     else {
-      attempt++;
+      attempt.value++;
     }
 }
 
