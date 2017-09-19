@@ -11,11 +11,9 @@ function guess() {
     }
 
     if(!validateInput(input.value)) {
-      return false;
+      return;
     }
-    else {
-      attempt.value++;
-    }
+    attempt.value++;
 }
 
 //implement new functions here
