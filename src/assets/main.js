@@ -21,3 +21,7 @@ function setHiddenFields() {
     answer += '0';
   }
 }
+
+function setMessage(theMessage) {
+  message.innerHTML = theMessage;
+}
