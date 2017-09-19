@@ -6,9 +6,9 @@ function guess() {
     let input = document.getElementById('user-guess');
 
     //add functionality to guess function here
-    if(answer === '' || attempt === '') {
-      setHiddenFields();
-    }
+    // if(answer === '' || attempt === '') {
+    //   setHiddenFields();
+    // }
 
     if(validateInput(input.value) === false) {
       return false;
