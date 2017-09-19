@@ -23,6 +23,11 @@ function guess() {
 function setHiddenFields() {
   answer.value = Math.floor(Math.random() * 9999) + 1;
   attempt = 0;
+
+  while(answer.length < 4) {
+    answer.toString();
+    answer += '0';
+  }
 }
 //
 // function setMessage(theMessage) {
