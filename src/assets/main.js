@@ -21,7 +21,7 @@ function guess() {
 //implement new functions here
 
 function setHiddenFields() {
-  answer = Math.floor(Math.random());
+  answer = Math.floor(Math.random() * 9999) + 1;
   attempt = 0;
 
   while(answer.length < 4) {
